@@ -1,0 +1,13 @@
+SECRET_KEY='django-insecure-y&&(vn9h!r+q$_%y9hi*rqckghf9n(4o5*z*$b8s+lguz+x1it'
+
+DEBUG=True
+
+DB_ENGINE = 'django.db.backends.postgresql_psycopg2'
+DB_NAME = 'ekurakani_db'
+DB_USER = 'postgres'
+DB_PASSWORD = 'root'
+DB_HOST = 'localhost'
+DB_PORT ='5432'
+
+KHALTI_SECRET_KEY = 'test_secret_key_6f42a08271eb45868c68f50db7199111' 
+KHALTI_VERIFY_URL = 'https://khalti.com/api/v2/payment/verify/'
